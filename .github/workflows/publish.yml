@@ -6,6 +6,9 @@
 #
 # It is done this way until PyPI has draft reviews, to allow for a two-stage
 # upload with a chance for manual intervention before the final publication.
+permissions:
+  contents: read
+
 name: Upload package
 
 on:
