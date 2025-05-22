@@ -1,9 +1,9 @@
-permissions:
-  contents: read
-
 name: tzdata contents
 
 on: [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: read
 
 jobs:
   tests:

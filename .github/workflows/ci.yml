@@ -1,9 +1,9 @@
-permissions:
-  contents: read
-
 name: CI Test
 
 on: [pull_request]
+
+permissions:
+  contents: read
 
 jobs:
   check-python:
